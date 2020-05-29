@@ -1,0 +1,72 @@
+	%versi 2 (8-10-2016) 
+\chapter{Pendahuluan}
+\label{chap:intro}
+   
+\section{Latar Belakang}
+\label{sec:label}
+Pengujian perangkat lunak merupakan salah satu tahapan dari \textit{software development life cycle}. \textit{Software Development Life Cycle}(SDLC) merupakan metodologi dari pengembangan perangkat lunak, metode ini dibagi menjadi beberapa fase seperti\textit{ analysis, design,  coding,  testing, installation} dan \textit{maintenance}[7]. \textit{Testing}/Pengujian perangkat lunak adalah proses untuk mencari kesalahan pada setiap \textit{item} perangkat lunak, mencatat hasilnya, mengevaluasi setiap aspek pada setiap komponen (sistem) dan mengevaluasi fasilitas-fasilitas dari perangkat lunak yang akan dikembangkan[1].Pengujian pada perangkat lunak merupakan tahapan yang wajib dilakukan sebelum perangkat lunak tersebut digunakan, agar memastikan sudah tidak ada \textit{error/bug} pada perangkat lunak yang sedang dikembangkan. Pengujian perangkat lunak memakan \textit{resource} yang berat, baik itu waktu maupun waktu maupun tenaga kerja, karena untuk melakukan pengujian perangkat lunak dibutuhkan \textit{developer} ahli \textit{Software Quality Assurance}(SQA). SQA yang bertanggung jawab untuk memastikan bahwa perangkat lunak yang sedang dikembangkan bebas dari \textit{bug} agar siap untuk di-\textit{release} dan digunakan oleh pengguna.
+
+\textit{Unit testing} merupakan tahapan pertama dari pengujian perangkat lunak. \textit{Unit Testing} adalah proses pengujian bagian kode secara individu, suatu komponen, untuk menentukan apakah kode tersebut berfungsi dengan semestinya[5]. Salah satu teknik untuk membuat \textit{unit testing} yaitu dengan code generation. \textit{Code generation} adalah teknik membuat suatu program yang membuat program lain. Menggunakan \textit{code generation} untuk \textit{unit testing} membuatnya mudah untuk mempertahankan dan memperpanjang \textit{unit testing}[6].
+
+Ada beberapa metode untuk melakukan pengujian perangkat lunak, salah satunya yaitu \textit{Test-Driven Development}(TDD). TDD adalah praktik pemrograman yang menginstruksikan pengembang perangkat lunak untuk menulis kode baru hanya ketika tes yang dilakukan secara otomatis gagal, dan menghilangkan duplikasi. Tujuan TDD adalah kode bersih yang berfungsi[2]. Tetapi, TDD memiliki masalah, bahwa TDD berfokus pada keadaan sistem daripada \textit{behaviour} yang diinginkan oleh sistem, dan kode pada pengujian \textit{highly coupled} dengan implementasi sistem yang ada[3]. Maka dari itu metode yang akan digunakan pada skripsi ini adalah \textit{Behaviour-Driven Development}.
+
+\textit{Behaviour-Driven Development}(BDD) merupakan evolusi dari TDD untuk menyelesaikan masalah yang ada pada TDD. BDD adalah pendekatan pengembangan perangkat lunak yang \textit{agile} untuk mendorong kolaborasi antara semua peserta dalam proses pengembangan perangkat lunak[4].
+
+Prinsip inti dari BDD adalah "orang bisnis dan teknologi harus merujuk ke sistem yang sama dengan cara yang sama"[4]. Berbeda dengan TDD yang berpatokan pada test untuk \textit{develope} lebih jauh program yang akan digunakan, BDD berpatokan pada keinginan \textit{stakeholder/customer} untuk mengembangkan programnya. Untuk mencapai kesepakatan antara \textit{developer} dan \textit{stakeholder/customer}, maka dibutuhkan \textit{language} untuk menspesifikasikan \textit{behaviour} sebuah sistem agar kedua pihak paham, dan dapat mewujudkan hal berikut[4]:
+\begin{itemize}
+\item \textit{Stakeholder/Customer} untuk menentukan persyaratan dari perspektif bisnis.
+\item Analis bisnis untuk melampirkan contoh konkret (skenario atau \textit{acceptance tests}) yang menjelaskan \textit{behaviour} sistem.
+\item \textit{Developer} untuk mengimplementasikan \textit{behaviour} sistem yang diperlukan secara TDD.
+\end{itemize}
+	
+Pengujian dengan basis \textit{behaviour specification} akan berfokus kepada hal yang \textit{stakeholder/customer} harapkan pada suatu sistem dengan \textit{behaviour} yang sudah di spesifikasikan. Pengujian akan berawal dengan membuat \textit{scenario} yang berisi [4]:
+\begin{enumerate}
+\item \textit{Context/Starting state} : Posisi awal sistem sebelum terjadinya suatu \textit{event}.
+\item \textit{Event} : \textit{Task} yang dilakukan oleh pengguna pada sistem.
+\item \textit{Outcome} : Hasil yang diharapkan dari sistem.
+\end{enumerate}
+\textit{Developer} akan menjadikan \textit{scenario} sebagai patokan dasar bekerjanya suatu sistem, dan akan melakukan pengujian berbasis \textit{scenario}. Pengujian dilakukan untuk memastikan bahwa sistem sudah bekerja sesuai apa yang \textit{stakeholder/customer} harapkan, dan jika \textit{scenario} berhasil dilakukan, maka sistem sudah siap untuk digunakan. 
+
+Pada skripsi ini akan dibangun sebuah perangkat pengujian yang mengimplementasi behaviour specification untuk menguji sebuah perangkat lunak.
+\section{Rumusan Masalah}
+\label{sec:rumusan}
+\begin{itemize}
+\item Bagaimana cara kerja pengerjaan Pengujian Berbasis Behaviour Specification?
+\item Bagaimana implementasi perangkat lunak yang dapat menguji program berbasis Behaviour Specification ?	
+\end{itemize}
+
+\section{Tujuan}
+\label{sec:tujuan}
+\begin{itemize}
+\item Mempelajari cara kerja Pengujian Berbasis Behaviour Specification
+\item Menghasilkan perangkat penguji yang dapat menguji sebuah perangkat lunak berbasiskan \textit{behaviour specification}.
+\end{itemize}
+
+\section{Batasan Masalah}
+\label{sec:batasan}
+Mengingat banyaknya perkembangan yang bisa ditemukan dalam permasalahan ini, maka perlu adanya batasan-batasan masalah yang jelas mengenai apa yang dibuat dan diselesaikan dalam program ini. Adapun batasan-batasan masalah pada penelitian ini sebagai berikut :
+
+\section{Metodologi}
+\label{sec:metlit}
+Bagian-bagian pekerjaan skripsi ini adalah sebagai berikut :
+\begin{enumerate}
+\item Melakukan Studi literatur mengenai pengujian perangkat lunak, \textit{unit testing}, dan \textit{behaviour specification}.
+\item Melakukan eksplorasi perangkat lunak.
+\item Menganalisis kebutuhan perangkat lunak.
+\item Membuat rancangan desain perangkat lunak, basis data, antarmuka perangkat lunak.
+\item Implementasi perangkat lunak yang menerima \textit{input behaviour spesification}, mengolah, dan mengubah ke bentuk \textit{unit testing}.
+\item Melakukan pengujian terhadap perangkat lunak.
+\item Melaporkan hasil penelitian dalam bentuk dokumen skripsi.
+\end{enumerate}
+
+\section{Sistematika Pembahasan}
+\label{sec:sispem}
+\begin{itemize}
+
+\item BAB I. PENDAHULUAN\\
+Bab ini berisi tentang latar belakang masalah, rumusan
+masalah, tujuan, batasan masalah, dan metodologi.
+\item BAB II. LANDASAN TEORI\\
+Bab 2 memuat uraian tentang teori yang akan digunakan pada pembuatan perangkat lunak.
+\end{itemize}
+
