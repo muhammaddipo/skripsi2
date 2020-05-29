@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.29)  29 MAY 2020 12:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.29)  29 MAY 2020 12:52
 entering extended mode
 **"./Progress report v44.tex"
 ("Progress report v44.tex"
@@ -515,7 +515,7 @@ Overfull \vbox (6.4151pt too high) has occurred while \output is active []
 [20] ("Progress report v44.aux") ) 
 Here is how much of TeX's memory you used:
  3734 strings out of 480795
- 63941 string characters out of 2896040
+ 63877 string characters out of 2896040
  487383 words of memory out of 3000000
  19680 multiletter control sequences out of 15000+200000
  547123 words of font info for 45 fonts, out of 3000000 for 9000
@@ -539,7 +539,7 @@ AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Us
 ers\Dipo\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc1000.p
 k><C:/Users/Dipo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmmi7.pfb>
-Output written on "Progress report v44.pdf" (20 pages, 597173 bytes).
+Output written on "Progress report v44.pdf" (20 pages, 597181 bytes).
 PDF statistics:
  573 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
