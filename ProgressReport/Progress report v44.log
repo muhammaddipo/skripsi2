@@ -1,0 +1,547 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.29)  29 MAY 2020 12:03
+entering extended mode
+**"./Progress report v44.tex"
+("Progress report v44.tex"
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-05-15>
+("C:\Users\Dipo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+("C:\Users\Dipo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size10.clo"
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+("C:\Users\Dipo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.sty"
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+("C:\Users\Dipo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty"
+Package: babel 2020/05/13 3.44 The Babel package
+
+("C:\Users\Dipo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
+File: babel.def 2020/05/13 3.44 Babel common definitions
+\babel@savecnt=\count175
+\U@D=\dimen135
+\l@babelnohyphens=\language79
+
+("C:\Users\Dipo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.de
+f")
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count176
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Users\Dipo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\Dipo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-indonesian\ba
+hasa.ldf"
+Language: bahasa 2017/02/15 v1.0m Bahasa Indonesia support from the babel syste
+m
+
+("C:\Users\Dipo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-indonesian\in
+donesian.ldf"
+Language: indonesian 2017/02/15 v1.0m Bahasa Indonesia support from the babel s
+ystem
+)))
+("C:\Users\Dipo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.s
+ty"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Dipo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.sty
+"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+("C:\Users\Dipo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.s
+ty"
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Dipo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\Dipo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graphi
+cs.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+("C:\Users\Dipo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdftex
+.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen136
+\Gin@req@width=\dimen137
+)
+("C:\Users\Dipo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count177
+\float@exts=\toks16
+\float@box=\box45
+\@float@everytoks=\toks17
+\@floatcapt=\box46
+)
+("C:\Users\Dipo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/preprint\fullpage.s
+ty"
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip49
+)
+("C:\Users\Dipo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.s
+ty"
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count178
+)
+("C:\Users\Dipo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/setspace\setspace.s
+ty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+("C:\Users\Dipo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lipsum\lipsum.sty"
+("C:\Users\Dipo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\expl3.sty"
+Package: expl3 2020-05-15 L3 programming layer (loader) 
+
+("C:\Users\Dipo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backend
+-pdfmode.def"
+File: l3backend-pdfmode.def 2020-05-05 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count179
+\l__pdf_internal_box=\box47
+))
+("C:\Users\Dipo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/xparse\x
+parse.sty"
+Package: xparse 2020-05-15 L3 Experimental document command parser
+
+("C:\Users\Dipo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/xparse\x
+parse-generic.tex"
+\l__xparse_current_arg_int=\count180
+\g__xparse_grabber_int=\count181
+\l__xparse_m_args_int=\count182
+\l__xparse_v_nesting_int=\count183
+))
+Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
+
+("C:\Users\Dipo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lipsum\lipsum.ltd.t
+ex"
+File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
+))
+("C:\Users\Dipo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.s
+ty"
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+("C:\Users\Dipo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifvtex.sty"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+("C:\Users\Dipo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iftex.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count184
+\Gm@cntv=\count185
+\c@Gm@tempcnt=\count186
+\Gm@bindingoffset=\dimen138
+\Gm@wd@mp=\dimen139
+\Gm@odd@mp=\dimen140
+\Gm@even@mp=\dimen141
+\Gm@layoutwidth=\dimen142
+\Gm@layoutheight=\dimen143
+\Gm@layouthoffset=\dimen144
+\Gm@layoutvoffset=\dimen145
+\Gm@dimlist=\toks18
+
+("C:\Users\Dipo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.c
+fg")) ("Progress report v44.aux")
+\openout1 = `"Progress report v44.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+
+("C:\Users\Dipo\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pd
+f.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count187
+\scratchdimen=\dimen146
+\scratchbox=\box48
+\nofMPsegments=\count188
+\nofMParguments=\count189
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count190
+\MPscratchDim=\dimen147
+\MPnumerator=\count191
+\makeMPintoPDFobject=\count192
+\everyMPtoPDFconversion=\toks20
+)
+("C:\Users\Dipo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstop
+df-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(56.9055pt, 469.47049pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 717.00946pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=469.47049pt
+* \textheight=717.00946pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-31.1381pt
+* \headheight=0.0pt
+* \headsep=30.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=111.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+LaTeX Font Warning: Font shape `T1/cmr/bx/scit' undefined
+(Font)              using `T1/cmr/bx/it' instead on input line 47.
+
+
+LaTeX Font Warning: Font shape `T1/cmr/bx/scsl' undefined
+(Font)              using `T1/cmr/bx/sc' instead on input line 80.
+
+
+Overfull \vbox (7.49817pt too high) has occurred while \output is active []
+
+
+[1{C:/Users/Dipo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+]
+Overfull \vbox (6.4151pt too high) has occurred while \output is active []
+
+
+[2]
+
+LaTeX Font Warning: Font shape `T1/cmr/bx/scsl' undefined
+(Font)              using `T1/cmr/bx/sc' instead on input line 130.
+
+
+Overfull \vbox (7.49817pt too high) has occurred while \output is active []
+
+
+[3]
+<../DokumenSkripsi/gambar/fault.png, id=21, 442.15187pt x 208.78pt>
+File: ../DokumenSkripsi/gambar/fault.png Graphic file (type png)
+<use ../DokumenSkripsi/gambar/fault.png>
+Package pdftex.def Info: ../DokumenSkripsi/gambar/fault.png  used on input line
+ 133.
+(pdftex.def)             Requested size: 221.0754pt x 104.38972pt.
+<../DokumenSkripsi/gambar/cycle2.jpeg, id=23, 487.8225pt x 72.27pt>
+File: ../DokumenSkripsi/gambar/cycle2.jpeg Graphic file (type jpg)
+<use ../DokumenSkripsi/gambar/cycle2.jpeg>
+Package pdftex.def Info: ../DokumenSkripsi/gambar/cycle2.jpeg  used on input li
+ne 138.
+(pdftex.def)             Requested size: 487.8213pt x 72.2698pt.
+
+Overfull \hbox (18.35081pt too wide) in paragraph at lines 138--140
+ [][] 
+ []
+
+<../DokumenSkripsi/gambar/blackbox.jpg, id=24, 149.05687pt x 62.48344pt>
+File: ../DokumenSkripsi/gambar/blackbox.jpg Graphic file (type jpg)
+<use ../DokumenSkripsi/gambar/blackbox.jpg>
+Package pdftex.def Info: ../DokumenSkripsi/gambar/blackbox.jpg  used on input l
+ine 155.
+(pdftex.def)             Requested size: 149.0565pt x 62.48328pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \vbox (6.4151pt too high) has occurred while \output is active []
+
+
+[4 <../DokumenSkripsi/gambar/fault.png> <../DokumenSkripsi/gambar/cycle2.jpeg>]
+<../DokumenSkripsi/gambar/compareAB.jpg, id=30, 261.22594pt x 92.59593pt>
+File: ../DokumenSkripsi/gambar/compareAB.jpg Graphic file (type jpg)
+<use ../DokumenSkripsi/gambar/compareAB.jpg>
+Package pdftex.def Info: ../DokumenSkripsi/gambar/compareAB.jpg  used on input 
+line 169.
+(pdftex.def)             Requested size: 313.46953pt x 111.11453pt.
+<../DokumenSkripsi/gambar/compareAB-whitebox.jpg, id=31, 291.33844pt x 90.3375p
+t>
+File: ../DokumenSkripsi/gambar/compareAB-whitebox.jpg Graphic file (type jpg)
+<use ../DokumenSkripsi/gambar/compareAB-whitebox.jpg>
+Package pdftex.def Info: ../DokumenSkripsi/gambar/compareAB-whitebox.jpg  used 
+on input line 178.
+(pdftex.def)             Requested size: 349.60437pt x 108.40443pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Font Warning: Font shape `T1/cmr/bx/scsl' undefined
+(Font)              using `T1/cmr/bx/sc' instead on input line 183.
+
+
+Overfull \vbox (7.49817pt too high) has occurred while \output is active []
+
+
+[5 <../DokumenSkripsi/gambar/blackbox.jpg> <../DokumenSkripsi/gambar/compareAB.
+jpg>]
+<../DokumenSkripsi/gambar/unittest.jpg, id=35, 296.60812pt x 107.65219pt>
+File: ../DokumenSkripsi/gambar/unittest.jpg Graphic file (type jpg)
+<use ../DokumenSkripsi/gambar/unittest.jpg>
+Package pdftex.def Info: ../DokumenSkripsi/gambar/unittest.jpg  used on input l
+ine 187.
+(pdftex.def)             Requested size: 444.91109pt x 161.47787pt.
+
+Overfull \vbox (6.4151pt too high) has occurred while \output is active []
+
+
+[6 <../DokumenSkripsi/gambar/compareAB-whitebox.jpg> <../DokumenSkripsi/gambar/
+unittest.jpg>]
+
+LaTeX Font Warning: Font shape `T1/cmr/bx/scsl' undefined
+(Font)              using `T1/cmr/bx/sc' instead on input line 208.
+
+
+Overfull \vbox (7.49817pt too high) has occurred while \output is active []
+
+
+[7]
+<../DokumenSkripsi/gambar/bdd.png, id=44, 407.5225pt x 183.18437pt>
+File: ../DokumenSkripsi/gambar/bdd.png Graphic file (type png)
+<use ../DokumenSkripsi/gambar/bdd.png>
+Package pdftex.def Info: ../DokumenSkripsi/gambar/bdd.png  used on input line 2
+10.
+(pdftex.def)             Requested size: 489.02455pt x 219.82013pt.
+
+Overfull \hbox (19.55406pt too wide) in paragraph at lines 210--212
+ [][] 
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
+22.
+("C:\Users\Dipo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1cmtt.fd"
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 222.
+
+Overfull \vbox (6.4151pt too high) has occurred while \output is active []
+
+
+[8 <../DokumenSkripsi/gambar/bdd.png>]
+<../DokumenSkripsi/gambar/skenario.png, id=50, 390.96063pt x 205.76875pt>
+File: ../DokumenSkripsi/gambar/skenario.png Graphic file (type png)
+<use ../DokumenSkripsi/gambar/skenario.png>
+Package pdftex.def Info: ../DokumenSkripsi/gambar/skenario.png  used on input l
+ine 237.
+(pdftex.def)             Requested size: 469.1504pt x 246.92125pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 243--250
+
+ []
+
+
+LaTeX Font Warning: Font shape `T1/cmr/bx/scsl' undefined
+(Font)              using `T1/cmr/bx/sc' instead on input line 252.
+
+
+Overfull \vbox (7.49817pt too high) has occurred while \output is active []
+
+
+[9 <../DokumenSkripsi/gambar/skenario.png>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 254.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 254.
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 254.
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 254.
+
+
+Overfull \vbox (6.4151pt too high) has occurred while \output is active []
+
+
+[10]
+
+LaTeX Font Warning: Font shape `T1/cmr/bx/scsl' undefined
+(Font)              using `T1/cmr/bx/sc' instead on input line 304.
+
+
+Overfull \vbox (7.49817pt too high) has occurred while \output is active []
+
+
+[11]
+<../DokumenSkripsi/gambar/uiFix.png, id=63, 962.59625pt x 289.08pt>
+File: ../DokumenSkripsi/gambar/uiFix.png Graphic file (type png)
+<use ../DokumenSkripsi/gambar/uiFix.png>
+Package pdftex.def Info: ../DokumenSkripsi/gambar/uiFix.png  used on input line
+ 318.
+(pdftex.def)             Requested size: 433.1643pt x 130.0848pt.
+
+Overfull \vbox (6.4151pt too high) has occurred while \output is active []
+
+
+[12 <../DokumenSkripsi/gambar/uiFix.png>]
+
+LaTeX Font Warning: Font shape `T1/cmr/bx/scsl' undefined
+(Font)              using `T1/cmr/bx/sc' instead on input line 339.
+
+
+Overfull \vbox (7.49817pt too high) has occurred while \output is active []
+
+
+[13]
+Overfull \vbox (6.4151pt too high) has occurred while \output is active []
+
+
+[14]
+<../DokumenSkripsi/gambar/flowcharttesting.png, id=75, 228.10219pt x 512.66531p
+t>
+File: ../DokumenSkripsi/gambar/flowcharttesting.png Graphic file (type png)
+<use ../DokumenSkripsi/gambar/flowcharttesting.png>
+Package pdftex.def Info: ../DokumenSkripsi/gambar/flowcharttesting.png  used on
+ input line 377.
+(pdftex.def)             Requested size: 159.67043pt x 358.86327pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Font Warning: Font shape `T1/cmr/bx/scsl' undefined
+(Font)              using `T1/cmr/bx/sc' instead on input line 397.
+
+
+Overfull \vbox (7.49817pt too high) has occurred while \output is active []
+
+
+[15]
+Overfull \vbox (6.4151pt too high) has occurred while \output is active []
+
+
+[16 <../DokumenSkripsi/gambar/flowcharttesting.png>]
+<../DokumenSkripsi/gambar/dfddiagram.jpeg, id=83, 491.436pt x 388.45125pt>
+File: ../DokumenSkripsi/gambar/dfddiagram.jpeg Graphic file (type jpg)
+<use ../DokumenSkripsi/gambar/dfddiagram.jpeg>
+Package pdftex.def Info: ../DokumenSkripsi/gambar/dfddiagram.jpeg  used on inpu
+t line 427.
+(pdftex.def)             Requested size: 393.14934pt x 310.76141pt.
+
+Overfull \hbox (65.59143pt too wide) in paragraph at lines 434--451
+ [] 
+ []
+
+
+Overfull \hbox (52.4141pt too wide) in paragraph at lines 454--473
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Font Warning: Font shape `T1/cmr/bx/scsl' undefined
+(Font)              using `T1/cmr/bx/sc' instead on input line 473.
+
+
+Overfull \vbox (7.49817pt too high) has occurred while \output is active []
+
+
+[17 <../DokumenSkripsi/gambar/dfddiagram.jpeg>]
+Overfull \hbox (55.77438pt too wide) in paragraph at lines 476--495
+ [] 
+ []
+
+
+Overfull \hbox (48.47061pt too wide) in paragraph at lines 498--517
+ [] 
+ []
+
+
+Overfull \hbox (63.77243pt too wide) in paragraph at lines 520--539
+ [] 
+ []
+
+
+Overfull \vbox (6.4151pt too high) has occurred while \output is active []
+
+
+[18]
+
+LaTeX Font Warning: Font shape `T1/cmr/bx/scsl' undefined
+(Font)              using `T1/cmr/bx/sc' instead on input line 603.
+
+
+Overfull \vbox (7.49817pt too high) has occurred while \output is active []
+
+
+[19]
+Overfull \vbox (6.4151pt too high) has occurred while \output is active []
+
+
+[20] ("Progress report v44.aux") ) 
+Here is how much of TeX's memory you used:
+ 3734 strings out of 480795
+ 63941 string characters out of 2896040
+ 487383 words of memory out of 3000000
+ 19680 multiletter control sequences out of 15000+200000
+ 547123 words of font info for 45 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 36i,7n,36p,1860b,339s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Dipo\AppData\Local\MiKTeX\2.9\font
+s/pk/ljfour/jknappen/ec/dpi600\ecrm0500.pk> <C:\Users\Dipo\AppData\Local\MiKTeX
+\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk> <C:\Users\Dipo\AppData\Loc
+al\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1440.pk> <C:\Users\Dipo\Ap
+pData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1200.pk> <C:\User
+s\Dipo\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1000.pk>
+ <C:\Users\Dipo\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcr
+m1000.pk> <C:\Users\Dipo\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/d
+pi600\ecti1000.pk> <C:\Users\Dipo\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jkna
+ppen/ec/dpi600\ecbx1000.pk> <C:\Users\Dipo\AppData\Local\MiKTeX\2.9\fonts/pk/lj
+four/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Dipo\AppData\Local\MiKTeX\2.9\fo
+nts/pk/ljfour/jknappen/ec/dpi600\ecxc1200.pk> <C:\Users\Dipo\AppData\Local\MiKT
+eX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1728.pk> <C:\Users\Dipo\AppData\L
+ocal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc1728.pk> <C:\Users\Dipo\
+AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Us
+ers\Dipo\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc1000.p
+k><C:/Users/Dipo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmmi7.pfb>
+Output written on "Progress report v44.pdf" (20 pages, 597173 bytes).
+PDF statistics:
+ 573 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+
