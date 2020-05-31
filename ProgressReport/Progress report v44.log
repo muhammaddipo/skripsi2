@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.29)  31 MAY 2020 12:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.29)  31 MAY 2020 13:58
 entering extended mode
 **"./Progress report v44.tex"
 ("Progress report v44.tex"
@@ -515,7 +515,7 @@ put line 557.
 
 
 LaTeX Font Warning: Font shape `T1/cmr/bx/scsl' undefined
-(Font)              using `T1/cmr/bx/sc' instead on input line 569.
+(Font)              using `T1/cmr/bx/sc' instead on input line 565.
 
 
 Overfull \vbox (7.49817pt too high) has occurred while \output is active []
@@ -523,15 +523,59 @@ Overfull \vbox (7.49817pt too high) has occurred while \output is active []
 
 [19 <../DokumenSkripsi/gambar/implementasi1.png> <../DokumenSkripsi/gambar/impl
 ementasi2.png>]
+<../DokumenSkripsi/gambar/implementasi3.png, id=98, 83.5622pt x 76.78688pt>
+File: ../DokumenSkripsi/gambar/implementasi3.png Graphic file (type png)
+<use ../DokumenSkripsi/gambar/implementasi3.png>
+Package pdftex.def Info: ../DokumenSkripsi/gambar/implementasi3.png  used on in
+put line 567.
+(pdftex.def)             Requested size: 83.56198pt x 76.78668pt.
+<../DokumenSkripsi/gambar/implementasi4.png, id=99, 137.01187pt x 208.52907pt>
+File: ../DokumenSkripsi/gambar/implementasi4.png Graphic file (type png)
+<use ../DokumenSkripsi/gambar/implementasi4.png>
+Package pdftex.def Info: ../DokumenSkripsi/gambar/implementasi4.png  used on in
+put line 575.
+(pdftex.def)             Requested size: 137.01154pt x 208.52855pt.
+<../DokumenSkripsi/gambar/implementasi5.png, id=100, 399.74344pt x 59.47218pt>
+File: ../DokumenSkripsi/gambar/implementasi5.png Graphic file (type png)
+<use ../DokumenSkripsi/gambar/implementasi5.png>
+Package pdftex.def Info: ../DokumenSkripsi/gambar/implementasi5.png  used on in
+put line 583.
+(pdftex.def)             Requested size: 399.74245pt x 59.47203pt.
+
 Overfull \vbox (6.4151pt too high) has occurred while \output is active []
 
 
-[20] ("Progress report v44.aux") ) 
+[20 <../DokumenSkripsi/gambar/implementasi3.png> <../DokumenSkripsi/gambar/impl
+ementasi4.png> <../DokumenSkripsi/gambar/implementasi5.png>]
+<../DokumenSkripsi/gambar/implementasi6.png, id=107, 601.4972pt x 98.61844pt>
+File: ../DokumenSkripsi/gambar/implementasi6.png Graphic file (type png)
+<use ../DokumenSkripsi/gambar/implementasi6.png>
+Package pdftex.def Info: ../DokumenSkripsi/gambar/implementasi6.png  used on in
+put line 591.
+(pdftex.def)             Requested size: 601.49573pt x 98.61818pt.
+
+Overfull \hbox (132.02524pt too wide) in paragraph at lines 591--593
+ [][] 
+ []
+
+
+LaTeX Font Warning: Font shape `T1/cmr/bx/scsl' undefined
+(Font)              using `T1/cmr/bx/sc' instead on input line 615.
+
+
+Overfull \vbox (7.49817pt too high) has occurred while \output is active []
+
+
+[21 <../DokumenSkripsi/gambar/implementasi6.png>]
+Overfull \vbox (6.4151pt too high) has occurred while \output is active []
+
+
+[22] ("Progress report v44.aux") ) 
 Here is how much of TeX's memory you used:
- 3750 strings out of 480795
- 64531 string characters out of 2896040
+ 3783 strings out of 480795
+ 65846 string characters out of 2896040
  487383 words of memory out of 3000000
- 19694 multiletter control sequences out of 15000+200000
+ 19723 multiletter control sequences out of 15000+200000
  547123 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,7n,36p,1860b,339s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -553,9 +597,9 @@ AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Us
 ers\Dipo\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc1000.p
 k><C:/Users/Dipo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmmi7.pfb>
-Output written on "Progress report v44.pdf" (20 pages, 618237 bytes).
+Output written on "Progress report v44.pdf" (22 pages, 647187 bytes).
 PDF statistics:
- 578 PDF objects out of 1000 (max. 8388607)
+ 603 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

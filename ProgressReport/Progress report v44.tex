@@ -556,10 +556,44 @@ Pada gambar 12 dapat terlihat \textit{unit testing} yang dibuat secara manual, \
 \begin{figure}[h!]
 			\includegraphics[scale=1.00]{../DokumenSkripsi/gambar/implementasi2}
 			\centering
-			\caption{\textit Contoh {unit testing} yang dibuat secara manual}
+			\caption{\textit \textit{Input} dan \textit{output} file}
 		\end{figure}
 
 Langkah pertama yang dilakukan pada perangkat lunak ini yaitu membaca file skenario Gherkin yang sudah diberikan oleh \textit{stakeholder} kepada \textit{developer}. Seperti dapat dilihat pada gambar 13, perangkat lunak membaca file menggunakan metode fopen dari file berformat txt dengan nama \textbf{login}, dimana skenario tersebut merupakan skenario Gherkin untuk fitur login, dan ditampung pada variabel \texttt{\$fileRead}. Tahap selanjutnya yaitu, menyiapkan sebuah variabel dijadikan hasil/\textit{output} dari perangkat lunak ini, dimana hasil akhirnya dapat dilihat pada gambar 13 yaitu file berformat php dengan nama \textbf{loginUnitTesting}, variabel tersebut yaitu \texttt{\$fileWrite}.
+
+Kode pertama yang ditulis ke variabel \texttt{\$fileWrite} dapat dilihat pada gambar 13 baris ke 4,"\texttt{<?php \textbackslash n}", dimana kode itu berguna untuk membuat seluruh kode dibawahnya berfungsi sebagai kode php. Variabel \texttt{\$banyakText} digunakan untuk menandakan ada berapa skenario\textit{unit testing} yang berada pada skenario Gherkin. Untuk meluruskan, skenario \textit{unit testing} dengan skenario Gherkin bermakna berbeda, dimana skenario \textit{unit testing} yaitu skenario yang dibuat untuk melakukan pengujian terhadap fitur login, contoh nya, jika \textit{username} dan \textit{password} \textit{login} ada didatabase, berarti \textit{login} berhasil, tetapi jika ada skenario dimana \textit{username} tidak terdaftar pada database, berarti \textit{login} gagal, skenario itu lah yang dimaksud untuk skenario \textit{unit testing}, kalau skenario Gherkin itu berarti skenario dalam format text yang diberikan \textit{stakeholder} kepada tim \textit{developer} untuk dibuat menjadi \textit{unit testing}.
+
+\begin{figure}[h!]
+			\includegraphics[scale=1.00]{../DokumenSkripsi/gambar/implementasi3}
+			\centering
+			\caption{\textit Variabel pada implementasi kode}
+		\end{figure}
+
+3 variabel pada gambar 14 digunakan untuk menampung fitur apa yang ada di skenario Gherkin, \textit{method} apa yang akan diuji, untuk variabel table digunakan untuk mencatat tabel mana pada database yang akan digunakan, variabel page digunakan untuk mencatat akan pindah ke halaman mana setelah fitur dijalankan, dan yang terakhir status menandakan skenario \textit{unit testing} tersebut apakah berhasil atau tidak, contoh \textit{login} berhasil atau \textit{login} gagal.
+
+\begin{figure}[h!]
+			\includegraphics[scale=1.00]{../DokumenSkripsi/gambar/implementasi4}
+			\centering
+			\caption{\textit Variabel untuk \textit{input user}}
+		\end{figure}
+
+Semua variabel pada gambar 15 digunakan untuk menampung seluruh \textit{input} dari pengguna. Variabel \textit{username} dan \textit{password} digunakan untuk menguji fitur \textbf{login} dan \textbf{signup}. Variabel \textit{confirm\_password, email, name, phone, address} digunakan untuk menguji fitur \textbf{signup,addAdmin,updateUser}. Variabel \textit{code,title,author,publicatio\_year,publisher,theme} digunakan untuk menguji fitur \textbf{addBook}. 
+
+\begin{figure}[h!]
+			\includegraphics[scale=1.00]{../DokumenSkripsi/gambar/implementasi5}
+			\centering
+			\caption{\textit Kode untuk menandakan file belum dibaca sampai baris terakhir}
+		\end{figure}
+
+Pada gambar 16, kode tersebut digunakan untuk terus membaca jika file belum sampai baris terakhir, jadi file skenario Gherkin akan terus dibaca agar dapat diproses menjadi kode-kode \textit{unit testing} untuk fitur \textit{website} e-library. Ada 1 variabel yang penting di sini, yaitu setiap file sudah dibaca tiap barisnya, ada variabel yang bertugas untuk memecah kalimat menjadi kata-kata setiap barisnya, semua kata tersebut di tampung di \textit{array} dengan nama variabel \texttt{\$words}, variabel ini berupa \textit{array} yang akan terus digunakan untuk mendapatkan seluruh \textit{keyword} yang dibutuhkan untuk membuat perangkat lunak ini berhasil menghasilkan sebuah \textit{unit testing}. 
+
+\begin{figure}[h!]
+			\includegraphics[scale=1.00]{../DokumenSkripsi/gambar/implementasi6}
+			\centering
+			\caption{\textit Kode untuk menandakan file belum dibaca sampai baris terakhir}
+		\end{figure}
+
+Pada gambar 17, variabel \textit{words} akan dibaca setiap index array nya menggunakan \textbf{for}, setiap ada \textit{keyword} yang cocok maka akan masuk ke dalam \textbf{if}, contoh, pada gambar 17, salah satu \textit{keyword} yang digunakan untuk perangkat lunak skripsi ini yaitu \textbf{Feature}, dimana ketika kata dari skenario Gherkin dibaca dan menghasilkan kata \textbf{Feature} ada beberapa hal yang dilakukan, pertama, ada potongan kode yang berfungsi menuliskan metode \textbf{require}, dapat terlihat pada baris 4 di gambar 17, dimana \textbf{require} disitu digunakan untuk memasukan file yang beralamatkan pada alamat yang berada di dalam kurung tersebut di baris 4 gambar 17. Pada skenario Gherkin, kata setelah \textbf{Feature} merupakan fitur yang akan dibuat \textit{unit testing}, jadi makna kode \texttt{\$words[\$i+1]} disitu ialah menandakan fitur apa yang akan diuji, maka pada baris 4 gambar 17, disitu melakukan \textbf{require} file yang berisi \textit{logic} untuk melakukan fitur contohnya misalkan \textit{login}, jadi pada file tersebut berisi \textit{logic} pada \textit{website} e-library untuk melakukan \textit{login}. Potongan kode dibawahnya pada baris ke 5 gambar 17 yaitu berfungsi untuk menuliskan potong text yang akan ditulis ke dalam format php yang berfungsi untuk membuat \textbf{class} pada file php tersebut yang bernama \textbf{Unit Testing} dan kelas tersebut \textit{extends} \textbf{PHPUnit\_Framework\_TestCase} dimana itu merupakan \textit{framework} yang digunakan di skripsi ini untuk melakukan \textit{unit testing} yaitu \textit{framework} PHPUnit.
 
 
 		\item \textbf{Menulis dokumen skripsi.}\\ 
