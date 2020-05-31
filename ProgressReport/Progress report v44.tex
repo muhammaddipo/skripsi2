@@ -544,9 +544,25 @@ Agar dapat lebih jelas melihat alur data \textit{input} dan \textit{output} nya,
 
 \item \textbf{Melakukan implementasi perangkat lunak.}\\
 \textbf{Status :} Ada sejak rencana kerja skripsi.\\
-\textbf{Hasil :} dipo
+\textbf{Hasil :} Untuk melakukan implementasi perangkat lunak yang akan dihasilkan pada skripsi ini, \textit{unit testing} yang sudah dibuat secara manual akan digunakan sebagai sebuah rancangan untuk membuat perangkat lunak \textit{auto-generate unit testing}, yang dimana nantinya perangkat lunak tersebut dapat men \textit{generate} \textit{unit testing} secara otomatis dengan \textit{input} beruka skenario Gherkin.
 
-		\item \textbf{Menulis dokumen skripsi.}\\
+\begin{figure}[h!]
+			\includegraphics[scale=1.00]{../DokumenSkripsi/gambar/implementasi1}
+			\centering
+			\caption{\textit Contoh {unit testing} yang dibuat secara manual}
+		\end{figure}
+Pada gambar 12 dapat terlihat \textit{unit testing} yang dibuat secara manual, \textit{unit testing} tersebut lah yang akan digunakan sebagai rancangan untuk membuat perangkat lunak \textit{auto-generate unit testing} yang dimana nantinya, perangkat lunak akan menghasilkan file berformat php yang memiliki kode-kode seperti pada gambar 12. \textit{Unit testing} akan dilakukan berdasarkan fitur-fitur yang ada pada \textit{website} e-library, yaitu ada 5 fitur, \textit{login, signup, addAdmin, addBook, }dan \textit{updateUser}, dimana output perangkat lunak ini akan menghasilkan \textit{unit testing} dari masing-masing fitur yang ada.
+
+\begin{figure}[h!]
+			\includegraphics[scale=1.00]{../DokumenSkripsi/gambar/implementasi2}
+			\centering
+			\caption{\textit Contoh {unit testing} yang dibuat secara manual}
+		\end{figure}
+
+Langkah pertama yang dilakukan pada perangkat lunak ini yaitu membaca file skenario Gherkin yang sudah diberikan oleh \textit{stakeholder} kepada \textit{developer}. Seperti dapat dilihat pada gambar 13, perangkat lunak membaca file menggunakan metode fopen dari file berformat txt dengan nama \textbf{login}, dimana skenario tersebut merupakan skenario Gherkin untuk fitur login, dan ditampung pada variabel \texttt{\$fileRead}. Tahap selanjutnya yaitu, menyiapkan sebuah variabel dijadikan hasil/\textit{output} dari perangkat lunak ini, dimana hasil akhirnya dapat dilihat pada gambar 13 yaitu file berformat php dengan nama \textbf{loginUnitTesting}, variabel tersebut yaitu \texttt{\$fileWrite}.
+
+
+		\item \textbf{Menulis dokumen skripsi.}\\ 
 		{\bf Status :} Ada sejak rencana kerja skripsi.\\
 		{\bf Hasil :} Menulis dokumen skripsi sudah dilakukan untuk Bab 1 dan Bab 2.
 
