@@ -590,11 +590,34 @@ Pada gambar 16, kode tersebut digunakan untuk terus membaca jika file belum samp
 \begin{figure}[h!]
 			\includegraphics[scale=1.00]{../DokumenSkripsi/gambar/implementasi6}
 			\centering
-			\caption{\textit Kode untuk menandakan file belum dibaca sampai baris terakhir}
+			\caption{\textit Kode untuk \textit{keyword} \textbf{Feature}}
 		\end{figure}
 
 Pada gambar 17, variabel \textit{words} akan dibaca setiap index array nya menggunakan \textbf{for}, setiap ada \textit{keyword} yang cocok maka akan masuk ke dalam \textbf{if}, contoh, pada gambar 17, salah satu \textit{keyword} yang digunakan untuk perangkat lunak skripsi ini yaitu \textbf{Feature}, dimana ketika kata dari skenario Gherkin dibaca dan menghasilkan kata \textbf{Feature} ada beberapa hal yang dilakukan, pertama, ada potongan kode yang berfungsi menuliskan metode \textbf{require}, dapat terlihat pada baris 4 di gambar 17, dimana \textbf{require} disitu digunakan untuk memasukan file yang beralamatkan pada alamat yang berada di dalam kurung tersebut di baris 4 gambar 17. Pada skenario Gherkin, kata setelah \textbf{Feature} merupakan fitur yang akan dibuat \textit{unit testing}, jadi makna kode \texttt{\$words[\$i+1]} disitu ialah menandakan fitur apa yang akan diuji, maka pada baris 4 gambar 17, disitu melakukan \textbf{require} file yang berisi \textit{logic} untuk melakukan fitur contohnya misalkan \textit{login}, jadi pada file tersebut berisi \textit{logic} pada \textit{website} e-library untuk melakukan \textit{login}. Potongan kode dibawahnya pada baris ke 5 gambar 17 yaitu berfungsi untuk menuliskan potong text yang akan ditulis ke dalam format php yang berfungsi untuk membuat \textbf{class} pada file php tersebut yang bernama \textbf{Unit Testing} dan kelas tersebut \textit{extends} \textbf{PHPUnit\_Framework\_TestCase} dimana itu merupakan \textit{framework} yang digunakan di skripsi ini untuk melakukan \textit{unit testing} yaitu \textit{framework} PHPUnit.
 
+\begin{figure}[h!]
+			\includegraphics[scale=1.00]{../DokumenSkripsi/gambar/implementasi7}
+			\centering
+			\caption{\textit Kode untuk keyword \textbf{Skenario}}
+		\end{figure}
+
+Gambar 18 menunjukan kode ketika \textit{keyword} yang muncul yaitu \textbf{Scenario}. Baris ke 2 pada gambar 18 berguna untuk memastikan bahwa \textit{method} yang berada pada baris dibawah setelah kode ini merupakan \textit{method} yang akan dilakukan uji \textit{unit testing}, kode ini disediakan oleh \textit{framework} PHPUnit. Pada baris ke 3 gambar 18 berfungsi menulis potongan kode ke file php dimana kode tersebut akan menjadi sebuah \textit{method} yang akan diuji nantinya. Baris ke 4 gambar 18 berfungsi melakukan fungsi \textbf{require} terhadapat file database, dimana file tersebut berfungsi untuk memanggil database agar bisa digunakan pada \textit{method} ini. Variabel \textit{banyaktest} disini berfungsi untuk mencatat sudah ada berapa \textit{method} yang ditulis, mulai dari 1 sampai ke-\textit{n method}. Untuk \textbackslash n disini ditulis ke variabel \textit{fileWrite} untuk menandakan pindah baris/\textit{enter}. Terakhir untuk variabel \textit{status} berfungsi untuk mencatat apakah skenario yang akan diuji itu berhasil atau tidak, yang dimaksud yaitu, parameter yang ada pada method tersebut, contoh untuk fitur \textbf{login}, ada 2 parameter, yaitu \textit{username} dan \textit{password}, jika status berhasil, maka \textit{username} dan \textit{password} ada dan tercatat pada database, jika \textit{status} gagal maka \textit{username} dan \textit{password} sengaja dimasukan yang memang tidak ada di database untuk melihat apakah fungsi \textit{logic} kode pada \textit{website} e-library bisa menangani \textit{input} yang yang salah, bukan hanya yang benar saja.
+
+\begin{figure}[h!]
+			\includegraphics[scale=1.00]{../DokumenSkripsi/gambar/implementasi8}
+			\centering
+			\caption{\textit Kode untuk keyword \textbf{When}}
+		\end{figure}
+
+Gambar 19 berisi kode untuk \textit{keyword} \textbf{When}. Untuk \textit{keyword} \textbf{When}, hal yang dilakukan untuk \textit{keyword} ini yaitu mencatat \textit{method} apa yang akan di uji, karena pada skenario Gherkinnya, memang sudah diberi format, setelah kata \textbf{tombol}, kata setelahnya itu berarti fitur yang akan diuji, contoh \textbf{tombol \textit{login}}, berarti method yang akan di uji yaitu \textit{method login}.
+
+\begin{figure}[h!]
+			\includegraphics[scale=1.00]{../DokumenSkripsi/gambar/implementasi9}
+			\centering
+			\caption{\textit Input dari pengguna}
+		\end{figure}
+
+Pada gambar 20, semua variabel berfungsi untuk menampung \textit{input} dari pengguna. Untuk \textit{input}, harus diperiksa dulu sebelum dimasukan ke dalam variabel, karena jika \textit{input} pada skenario Gherkin nya kata "kosong" maka variabel akan berisi \textit{string} kosong. Mengapa harus ditulis "kosong" pada skenario Gherkinnya, karena jika didiamkan kosong, maka tidak akan terbaca, jadi akhirnya diberi patokan, jika pada skenario Gherkin tertulis "kosong" maka barulah isi dari variabel itu \textit{string} kosong. Untuk \textbf{if} yang memeriksa \textit{password} dan \textit{confirm password} harus dibedakan karena cara kerja nya di pecah menjadi kata-kata, jadi \textit{confirm password} terpecah menjadi \textit{confirm} dan \textit{password} maka dari itu, baris ke 7 gambar 20 harus diperiksa seperti itu. Karena \textit{method} login tidak perlu variabel \textit{confirm\_password,email,name, }dan variabel lainnya, maka pada baris 13 gambar 20 dilakukan \textbf{if} seperti itu untuk membedakan sedang melakukan \textit{method} yang mana. Untuk memasukan sebuah kata dalam variabel, memang menggunakan index seperti contoh pada kode \texttt{\$username=\$words[\$i+2];} pada baris ke 2 gambar 20, cara memeriksa nya yaitu setelah mendapatkan \textit{keyword} dengan \textit{username}, maka sudah dipastikan, 2 kata setelah nya yaitu \textit{username} \textit{input} dari pengguna, makannya terdapat \texttt{\$i+2} pada indexnya, dan juga yang lainnya.
 
 		\item \textbf{Menulis dokumen skripsi.}\\ 
 		{\bf Status :} Ada sejak rencana kerja skripsi.\\

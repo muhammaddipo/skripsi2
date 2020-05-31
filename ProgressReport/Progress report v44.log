@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.29)  31 MAY 2020 13:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.29)  31 MAY 2020 15:04
 entering extended mode
 **"./Progress report v44.tex"
 ("Progress report v44.tex"
@@ -558,24 +558,69 @@ Overfull \hbox (132.02524pt too wide) in paragraph at lines 591--593
  [][] 
  []
 
+<../DokumenSkripsi/gambar/implementasi7.png, id=108, 502.12593pt x 134.75343pt>
+
+File: ../DokumenSkripsi/gambar/implementasi7.png Graphic file (type png)
+<use ../DokumenSkripsi/gambar/implementasi7.png>
+Package pdftex.def Info: ../DokumenSkripsi/gambar/implementasi7.png  used on in
+put line 599.
+(pdftex.def)             Requested size: 502.12471pt x 134.7531pt.
+
+Overfull \hbox (32.65422pt too wide) in paragraph at lines 599--601
+ [][] 
+ []
+
 
 LaTeX Font Warning: Font shape `T1/cmr/bx/scsl' undefined
-(Font)              using `T1/cmr/bx/sc' instead on input line 615.
+(Font)              using `T1/cmr/bx/sc' instead on input line 605.
 
 
 Overfull \vbox (7.49817pt too high) has occurred while \output is active []
 
 
-[21 <../DokumenSkripsi/gambar/implementasi6.png>]
+[21 <../DokumenSkripsi/gambar/implementasi6.png> <../DokumenSkripsi/gambar/impl
+ementasi7.png>]
+<../DokumenSkripsi/gambar/implementasi8.png, id=114, 229.60782pt x 106.89937pt>
+
+File: ../DokumenSkripsi/gambar/implementasi8.png Graphic file (type png)
+<use ../DokumenSkripsi/gambar/implementasi8.png>
+Package pdftex.def Info: ../DokumenSkripsi/gambar/implementasi8.png  used on in
+put line 607.
+(pdftex.def)             Requested size: 229.60725pt x 106.8991pt.
+<../DokumenSkripsi/gambar/implementasi9.png, id=115, 428.35031pt x 450.18187pt>
+
+File: ../DokumenSkripsi/gambar/implementasi9.png Graphic file (type png)
+<use ../DokumenSkripsi/gambar/implementasi9.png>
+Package pdftex.def Info: ../DokumenSkripsi/gambar/implementasi9.png  used on in
+put line 615.
+(pdftex.def)             Requested size: 428.34926pt x 450.18077pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
 Overfull \vbox (6.4151pt too high) has occurred while \output is active []
 
 
-[22] ("Progress report v44.aux") ) 
+[22 <../DokumenSkripsi/gambar/implementasi8.png>]
+
+LaTeX Font Warning: Font shape `T1/cmr/bx/scsl' undefined
+(Font)              using `T1/cmr/bx/sc' instead on input line 650.
+
+
+Overfull \vbox (7.49817pt too high) has occurred while \output is active []
+
+
+[23 <../DokumenSkripsi/gambar/implementasi9.png>]
+Overfull \vbox (6.4151pt too high) has occurred while \output is active []
+
+
+[24] ("Progress report v44.aux") ) 
 Here is how much of TeX's memory you used:
- 3783 strings out of 480795
- 65846 string characters out of 2896040
+ 3807 strings out of 480795
+ 66824 string characters out of 2896040
  487383 words of memory out of 3000000
- 19723 multiletter control sequences out of 15000+200000
+ 19744 multiletter control sequences out of 15000+200000
  547123 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,7n,36p,1860b,339s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -597,9 +642,9 @@ AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Us
 ers\Dipo\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc1000.p
 k><C:/Users/Dipo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmmi7.pfb>
-Output written on "Progress report v44.pdf" (22 pages, 647187 bytes).
+Output written on "Progress report v44.pdf" (24 pages, 688590 bytes).
 PDF statistics:
- 603 PDF objects out of 1000 (max. 8388607)
+ 618 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
